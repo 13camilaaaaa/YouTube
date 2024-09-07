@@ -1,19 +1,19 @@
 @import url(youtube.css);
 
 
-.sidebar{
+.sidebar {
     grid-area: sidebar;
     background-color: #212121;
 }
 
-.sidebar-items{
+.sidebar-items {
     display: flex;
     flex-direction: column;
     padding: 0 14px;
     margin-top: 10px;
 }
 
-.sidebar-item{
+.sidebar-item {
     color: #fff;
     text-decoration: none;
     padding: 0 14px;
@@ -24,10 +24,11 @@
     border-radius: 10px;
 }
 
-.sidebar-item:hover{
+.sidebar-item:hover {
     background-color: #4c4c4c;
     transition: 0.3s;
 }
 
-
-
+.more {
+    margin-bottom: 10px;
+}
