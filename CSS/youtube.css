@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url(header.css);
+@import url(sidebar.css);
+@import url(content.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    grid-template-rows: 56px 1fr;
+    grid-area:
+        'header header'
+        'aside main';
+    height: 100vh;
+}
+
+
+h1 {
+    font-size: 0.9rem;
+}
+
+h4 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #aaa;
+    margin: 0 0 0 20px;
+}
+
+i {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+a {
+    font-size: 0.9rem;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 12px 0;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.main {
+    grid-area: main;
+}
