@@ -1,29 +1,33 @@
 @import url(youtube.css);
 
-.aside {
+
+.sidebar{
     grid-area: sidebar;
-    background-color: rgb(0, 0, 0);
-    border-right: solid 2px white;
-    margin-left: 5%;
+    background-color: #212121;
+}
+
+.sidebar-items{
+    display: flex;
+    flex-direction: column;
+    padding: 0 14px;
+    margin-top: 10px;
+}
+
+.sidebar-item{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 14px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    border-radius: 10px;
+}
+
+.sidebar-item:hover{
+    background-color: #4c4c4c;
+    transition: 0.3s;
 }
 
 
-.sidebar .div-1:nth-child(3){
-    border-bottom: solid 2px white;
-}
 
-.sidebar .div-1:nth-child(10){
-    border-bottom: solid 2px white;
-}
-
-.sidebar .div-1:nth-child(18){
-    border-bottom: solid 2px white;
-}
-
-.sidebar .div-1:nth-child(23){
-    border-bottom: solid 2px white;
-}
-
-.sidebar .div-1:nth-child(27){
-    border-bottom: solid 2px white;
-}

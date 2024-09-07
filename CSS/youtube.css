@@ -14,9 +14,9 @@ body {
     display: grid;
     grid-template-columns: 240px 1fr;
     grid-template-rows: 56px 1fr;
-    grid-area:
+    grid-template-areas:
         'header header'
-        'aside main';
+        'sidebar main';
     height: 100vh;
 }
 
@@ -51,8 +51,8 @@ hr {
     margin: 12px 0;
 }
 
-.aside {
-    grid-area: aside;
+.sidebar {
+    grid-area: sidebar;
 }
 
 .main {
